@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="score" id="home-el">0</div>
+                <div class="points">
+                    <button class="button" onclick="add1()">+1</button>
+                    <button class="button" onclick="add2()">+2</button>
+                    <button class="button" onclick="add3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score" id="guest-el">0</div>
+                <div class="points">
+                    <button class="button" onclick="add1guest()">+1</button>
+                    <button class="button" onclick="add2guest()">+2</button>
+                    <button class="button" onclick="add3guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="reset" onclick="resetBtn()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
